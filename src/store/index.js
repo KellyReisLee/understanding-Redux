@@ -31,7 +31,7 @@ const inicialAuthData = {
 };
 
 const authSlice = createSlice({
-  name: 'authentication',
+  name: 'auth',
   initialState: inicialAuthData,
   reducers: {
     login(state) {
